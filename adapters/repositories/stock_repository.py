@@ -1,7 +1,6 @@
 from sqlalchemy.orm import Session
 
 from domain.entities.stock import Stock as StockEntity
-from domain.dto.stock_dto import StockCreateDto
 
 
 class StocksRepository:
